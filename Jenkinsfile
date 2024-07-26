@@ -22,7 +22,6 @@ pipeline {
                 }
             }
         }
-
         stage('Init'){
             steps{
                 sh """
@@ -49,10 +48,6 @@ pipeline {
                 """
             }
         }
-        
-        
-
-        
     }
     post { 
         always { 

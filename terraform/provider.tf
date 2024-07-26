@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "srikar-remote-state"
-    key    = "expense-infa-backend"
+    key    = "expense-terrr-backend9"
     region = "us-east-1"
     dynamodb_table = "srikar-locking"
   }

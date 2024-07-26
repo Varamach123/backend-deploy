@@ -1,13 +1,10 @@
 variable "project_name" {
-    default = "expense"
+  default = "expense"
 }
 
 variable "environment" {
-    
-    default = "dev"
-  
+  default = "dev"
 }
-
 
 variable "common_tags" {
   default = {
